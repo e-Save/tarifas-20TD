@@ -17,6 +17,7 @@ html{
 }
 .seccion-hero {
   position: relative;
+  padding-top: 35px;
 }
 
 .hero-content{
