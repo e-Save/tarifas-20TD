@@ -1,7 +1,4 @@
 $(document).ready(function() {
-  // add padding top to show content behind navbar
-  // $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
-
   // detect scroll top or down
   if ($('.smart-scroll').length > 0) { // check if element exists
     var last_scroll_top = 0;
