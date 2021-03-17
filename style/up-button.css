@@ -1,0 +1,18 @@
+/* Up-Button */
+
+.up-button{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 50px;
+    background: #00b4d8;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+.up-button > i{
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+    padding-top: 9px;
+}

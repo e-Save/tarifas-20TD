@@ -1,0 +1,258 @@
+/******************************** VISTA ORDENADOR ********************************/
+
+html{
+  font-size: 20px;
+}
+
+/************** SECCION GLOBAL **************/
+.seccion-global {
+  top: 0;
+  width: 100%;
+}
+
+/************** SECCION HERO **************/
+.img-hero > img{
+  width: 100%;
+  border-radius: 10px;
+}
+.seccion-hero {
+  position: relative;
+}
+
+.hero-content{
+  margin-top: 100px;
+  min-height: calc(100vh - 100px);
+}
+
+.hero-content > .row{
+  min-height: calc(100vh - 100px);
+}
+
+/***** FONT *****/
+.titulo h1,
+.titulo h2,
+.titulo h3,
+.titulo h4{
+  color: #03045e;
+}
+
+.subtitulo h1,
+.subtitulo h2,
+.subtitulo h3,
+.subtitulo h4{
+  color: #023e8a;
+}
+
+.subtitulo{
+  padding: 20px;
+}
+
+.descripcion h1,
+.descripcion h2,
+.descripcion h3,
+.descripcion h4{
+  color: #0096c7;
+}
+
+.descripcion h4, .subtitulo h3{
+  font-size: 1.2rem;
+}
+
+p{
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+/************** SECCION SEPARADOR **************/
+.seccion-separador {
+  /* CAMBIAR POR VARIABLE DE ENTORNO */
+  background-color: #00b4d8;
+  height: 180px;
+}
+
+/************** SECCION CONTENIDO **************/
+.seccion-contenido{
+  padding-top: 50px;
+}
+/***** FONT *****/
+/* TITULO */
+.seccion-contenido .titulo{
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+}
+.seccion-contenido .titulo h1{
+  font-size: 46px;
+  margin-bottom: 27px;
+}
+.seccion-contenido .titulo h2{
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+.seccion-contenido .titulo h3{
+  font-size: 38px;
+  margin-bottom: 23px;
+}
+.seccion-contenido .titulo h4{
+  font-size: 34px;
+  margin-bottom: 21px;
+}
+
+/* SUBTITULO */
+.seccion-contenido .subtitulo h1{
+  font-size: 30px;
+  margin-bottom: 19px;
+}
+.seccion-contenido .subtitulo h2{
+  font-size: 28px;
+  margin-bottom: 17px;
+}
+.seccion-contenido .subtitulo h3{
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.seccion-contenido .subtitulo h4{
+  font-size: 24px;
+  margin-bottom: 13px;
+}
+
+/* DESCRIPCION */
+.descripcion{
+  padding: 25px 0;
+}
+
+.seccion-contenido .descripcion h1,
+.seccion-contenido .descripcion h2,
+.seccion-contenido .descripcion h3,
+.seccion-contenido .descripcion h4,
+.seccion-contenido .descripcion p{
+  margin-bottom: 3px;
+}
+
+.seccion-contenido .descripcion h1{
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.seccion-contenido .descripcion h2{
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+.seccion-contenido .descripcion h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.seccion-contenido .descripcion h4{
+  font-size: 16px;
+  margin-bottom: 9px;
+}
+
+.seccion-contenido .descripcion p{
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+/* Contenido 1*/
+
+.contenido-1{
+  background: url("logo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ver-mas{
+  width: 200px;
+  height: 30px;
+  background: #0096c7;
+  text-align: center;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.ver-mas:hover{
+  background: #8ed1e7;
+}
+
+.ver-mas a{
+  padding-top: 2px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.green-btn {
+  border-radius: 40.5px;
+  max-width: 350px;
+  color: #007bff;
+  background-color: #caf0f8;
+  font-size: 17px;
+  text-transform: none;
+}
+
+.bg-home{
+  background: url(../media/molino.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.15;
+  width: 100%;
+  height: 100%;
+}
+
+.section{
+  padding: 65px 20px;
+  width: 100%;
+}
+
+
+
+.img-descr-small {
+  display: none;
+}
+.img-descr-large > img,
+.img-descr-small > img{
+  width: 100%;
+}
+
+.policy-container{
+  padding: 100px;
+}
+
+.policy-container h1,
+.policy-container h2,
+.policy-container h3,
+.policy-container h4,
+.policy-container h5,
+.policy-container h6,
+.policy-container h7{
+  color: grey;
+}
+
+
+/* 768px */
+
+@media (max-width: 768px){
+  .md-text-align-center{
+    text-align: center;
+  }
+  .md-padd-top-30{
+    padding-top: 30px;
+  }
+  .md-margin-auto{
+    margin: auto;
+  }
+  
+
+  /* description images */ 
+
+  .img-descr-small {
+    display: block;
+  }
+
+  .img-descr-large {
+    display: none;
+  }
+}

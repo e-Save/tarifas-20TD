@@ -1,0 +1,41 @@
+/* seleccion */
+
+.seleccion{
+    min-height: 50px;
+    height: 50vh;
+    position: relative;
+    padding: 0;
+  }
+  
+  .seleccion:hover{
+    background: rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .seleccion > .seleccion-texto{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+  }
+  
+  /* sub-seleccion */
+  
+  #sub-selection-row{
+    visibility: hidden;
+    height: 0;
+  }
+  
+  .sub-seleccion{
+    position: relative;
+    padding: 0;
+  }
+  
+  .sub-seleccion > .seleccion-texto{
+    width: 100%;
+  }
+  
+  .sub-seleccion:hover{
+    background: rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  

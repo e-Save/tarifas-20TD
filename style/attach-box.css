@@ -1,0 +1,55 @@
+/***** ATTACH WITH DRAG AND DROP *****/
+
+#attach-box {
+  background-color:white;
+  padding:10px;
+  border-radius:15px;
+}
+
+#dotted-box {
+  background-color:#f8faff;
+  border-style:dotted;
+  border-width:2px;
+  border-color:#d8dde8;
+  padding:10px;
+}
+
+#documents {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+  overflow: hidden
+}
+
+#attach-button {
+  cursor: pointer;
+  border-width:thin;
+  border-radius:5px;
+}
+
+.div-colored {
+  transition: all .2s ease-in-out;
+  padding:20px !important;
+}
+
+.overlap-element {
+  position: relative;
+}
+
+.clear-files i {
+  color: red;
+  font-size: 15px;
+}
+
+.file-names {
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-bottom: 1px solid rgba(36,140,162,0.58) !important;
+}

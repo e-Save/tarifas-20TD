@@ -1,0 +1,29 @@
+<nav class="navbar smart-scroll navbar-expand-lg navbar-light light_bg">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <%= image_tag("https://e-save-images.s3.eu-central-1.amazonaws.com/landings-explicativas/e-save-logo.png", class: "logo", alt: "Logo")%>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-auto justify-content-end" id="collapsingNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link seleccion-11 align-center" href="/factura-luz-2.0-TD">
+            <%= t '.nav_link_1' %>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link seleccion-12 align-center" href="/nuevos-tramos-de-energia">
+            <%= t '.nav_link_2' %>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link seleccion-2 align-center" href="/nuevos-tramos-de-potencia">
+            <%= t '.nav_link_3' %>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

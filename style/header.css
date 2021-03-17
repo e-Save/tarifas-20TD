@@ -1,0 +1,26 @@
+/******************************** VISTA ORDENADOR ********************************/
+/************** NAVBAR **************/
+.light_bg {
+  background-color: #caf0f8 !important;
+}
+
+.logo{
+  height: 60px;
+}
+.align-center{
+  text-align: center;
+}
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+

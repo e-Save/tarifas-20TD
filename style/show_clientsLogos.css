@@ -1,0 +1,35 @@
+
+
+html {
+  overflow:hidden;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.client-logo {
+	opacity: 0.4;
+	filter: grayscale(100%);
+	max-height: 40px;
+	margin-bottom: 30px;
+}
+
+
+.clients-logo-section {
+	margin-bottom: 0;
+}
+
+.client-logo:hover {
+	filter: none;
+	transition: opacity 1s;
+ 	-webkit-transition: opacity 1s;
+ 	opacity: 1;
+}
+
+.product-title {
+	font-size: 26px;
+}
+
+.product-description {
+	font-size:20px;
+	color:grey;
+}
