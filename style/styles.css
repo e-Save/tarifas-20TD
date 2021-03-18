@@ -65,7 +65,9 @@ p{
 }
 
 a {
-  #1e6fb5;
+  text-decoration: none;
+  background-color: transparent;
+  color: #1e6fb5;;
 }
 
 /************** SECCION SEPARADOR **************/
