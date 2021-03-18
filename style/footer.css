@@ -2,7 +2,7 @@
 .footer{
   padding-top: 30px;
   margin-top: 30px;
-  background: #f1f1f1;
+  background: #f3f7f9;
 }
 
 .footer .col-md-4{
@@ -11,7 +11,6 @@
 
 .footer h4{
   color: #245085;
-  font-family: "Avenir Bold";
   font-size: 22px;
   line-height: calc(18px + 8px);
   letter-spacing: 0;

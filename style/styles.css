@@ -64,6 +64,10 @@ p{
   margin-bottom: 1rem;
 }
 
+a {
+  #1e6fb5;
+}
+
 /************** SECCION SEPARADOR **************/
 .seccion-separador {
   /* CAMBIAR POR VARIABLE DE ENTORNO */
