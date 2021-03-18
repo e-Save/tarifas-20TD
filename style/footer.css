@@ -2,7 +2,6 @@
 .footer{
   padding-top: 30px;
   margin-top: 30px;
-  background: #f3f7f9;
 }
 
 .footer .col-md-4{
@@ -64,10 +63,10 @@
 
 
 .subfooter{
-  background-color: #caf0f8;
+  background-color: rgba(8,8,8,.05);;
   width: 100%;
-  margin: 0;
-  padding-top: 5px;
+  margin: 0px;
+  padding-top: 15px 0px;
 }
 
 .subfooter .col-md-4{
