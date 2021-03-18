@@ -38,7 +38,27 @@
 }
 
 .rr-ss > a{
-  font-size: 17px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 18px;
+}
+
+.facebook {
+  background: #4b6cd0;
+}
+
+.linkedin {
+  background: #0a66c2;
+}
+
+.instagram {
+  background: #bb8950;
 }
 
 .subfooter a, .subfooter p{
