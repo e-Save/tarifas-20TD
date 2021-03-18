@@ -19,6 +19,7 @@
 .opr3, 
 .opr4 {
   position: relative;
+  text-decoration: none!important;
 }
 
 .opr1:hover, 
