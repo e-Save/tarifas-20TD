@@ -23,9 +23,11 @@
 .top-footer img{
   height: 60px;
 }
-.top-footer .col-md-3 p{
-  margin-bottom: 5px;
+
+.top-footer p{
+  margin-bottom: 10px;
 }
+
 .footer-description{
   padding: 20px 0;
   font-weight: 500;
