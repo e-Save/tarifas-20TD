@@ -1,5 +1,6 @@
 $(document).ready(function() {
   // detect scroll top or down
+  var last_scroll_top = 0;
   $(window).on('scroll', function() {
       scroll_top = $(this).scrollTop();
       if(scroll_top < last_scroll_top) {
