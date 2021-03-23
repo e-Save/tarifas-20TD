@@ -1,6 +1,6 @@
 $(window).ready(function() {
   var show_collapse = true;
-  $('.navbar-toggler').on('click', function(event){
+  $('.navbar-toggler').on('click', function(){
     if (show_collapse){
       $('.collapse').addClass('show');
       show_collapse = false;
