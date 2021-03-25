@@ -216,6 +216,11 @@ a {
 .img-descr-small {
   display: none;
 }
+
+.img-descr-large{
+  padding-bottom: 50px;
+}
+
 .img-descr-large > img,
 .img-descr-small > img{
   width: 100%;
