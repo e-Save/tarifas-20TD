@@ -1,0 +1,49 @@
+.nuestros-servicios{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.nuestros-servicios h3{
+    color: #03045e;
+}
+
+.nuestros-servicios h6{
+    font-weight: 400;
+    color: grey;
+}
+
+
+.titulo-servicio{
+    color: #03045e;
+    font-weight: 700;
+}
+
+.descripcion-servicio{
+    padding: 0 20px;
+    font-size: 17px;
+    color: #0096c7;
+}
+
+.icono-servicio{
+    height: 125px;
+    color:#4ca2cd;
+    padding-bottom: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.servicio-1{
+    border-radius: 50px;
+    padding: 30px 0;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none!important;
+}
+
+.servicio-1:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease-in-out;
+}
+.servicio-1:hover .icono-servicio{
+    transform: rotateY(180deg);
+    color: blue;
+    transition: all 0.5s ease-in-out;
+}
