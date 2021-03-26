@@ -165,17 +165,8 @@ a {
 
 /* Contenido 1*/
 
-.ver-mas{
-  width: 200px;
-  height: 30px;
-  background: #0096c7;
-  text-align: center;
-  border-radius: 4px;
-  margin: 20px 0;
-}
-
 .ver-mas:hover{
-  background: #8ed1e7;
+  background: #1e6fb5;
 }
 
 .ver-mas a{
@@ -184,11 +175,11 @@ a {
   text-decoration: none;
 }
 
-.green-btn {
+.entiende-btn {
   border-radius: 40.5px;
   max-width: 350px;
-  color: #007bff;
-  background-color: #caf0f8;
+  color: #1e6fb5;
+  background-color: transparent;
   font-size: 17px;
   text-transform: none;
 }
