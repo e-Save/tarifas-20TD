@@ -1,7 +1,6 @@
 /* footer */
 .footer{
-  padding-top: 30px;
-  margin-top: 30px;
+
 }
 
 .footer .col-md-4{
@@ -15,7 +14,8 @@
 }
 .top-footer{
   min-height: 250px;
-  padding: 55px 15px;
+  padding: 60px 15px;
+  background-color: #caf0f8;
 }
 
 .top-footer img{
