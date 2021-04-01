@@ -12,11 +12,10 @@
   color: #245085;
   line-height: calc(18px + 8px);
   letter-spacing: 0;
-  margin: 10px 0;
 }
 .top-footer{
   min-height: 250px;
-  padding: 15px;
+  padding: 55px 15px;
 }
 
 .top-footer img{
@@ -66,7 +65,7 @@
   background-color: rgba(8,8,8,.05);;
   width: 100%;
   margin: 0px;
-  padding-top: 15px 0px;
+  padding: 15px 0px;
 }
 
 .subfooter .col-md-4{
